@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./albom.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main" id="mainSheet">
+        <input type="text" id="imageInput"><br>
+        <input type="text" id="labelInput"><br>
+        <button onclick="addNewTile()">Добавить</button>
+        <div class="tile" id="tile">
+            <img src="" alt="Название картинки" class="tileImage">
+            <div>
+                <h3>Название картинки</h3>
+                <button onclick="deleteTile()">Удалить</button>
+            </div>
+        </div>
+    </main>
+    <script src="./albom.js"></script> 
+</body>
+</html>

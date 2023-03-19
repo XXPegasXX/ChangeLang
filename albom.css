@@ -1,0 +1,9 @@
+.element {
+    border: 2px solid blueviolet;
+    width: 100px;
+}
+
+.tileImage{
+    width: 600px;
+    height: 600px;
+}
